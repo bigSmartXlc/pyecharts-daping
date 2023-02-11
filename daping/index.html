@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>数据大屏</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/map.css">
+</head>
+
+<body>
+    <div class="data">
+
+        <div class="data-title">
+            <div class="title-left fl"></div>
+            <div class="title-center fl">数据大屏</div>
+            <div class="title-right fr"></div>
+        </div>
+        <div class="data-content">
+            <div class="con-left fl">
+                <div class="left-top">
+                    <div class="info">
+                        <div class="info-title">数据面板</div>
+                        <iframe src="echarts/echart_1.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+                    </div>
+                </div>
+                <div class="left-bottom">
+                    <div id="echarts_2" class="charts">
+                        <iframe src="echarts/echart_4.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="con-center fl">
+                <div class="cen-top" id="map">
+                    <iframe src="echarts/echart_3.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+                </div>
+            </div>
+            <div class="con-right fr">
+                <div class="right-top">
+                    <div class="info-title">图表分析</div>
+                    <div id="echarts_4" class="charts">
+                        <iframe src="echarts/echart_2.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+                    </div>
+                </div>
+                <div class="right-bottom">
+                    <div id="echarts_6" class="charts">
+                        <iframe src="echarts/echart_5.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/china.js"></script>
+<script src="js/echarts.js"></script>
+
+</html>
